@@ -1,63 +1,41 @@
 header {
     height: 80px;
-    display: flex;
-    justify-content: center;
-
-
     nav {
         height: 100%;
-        display: flex;
-        justify-content: space-around;
         border-bottom: 1px solid $primaryBrownColor;
 
         & .l-nav-side {
             width: 50%;
-            display: flex;
-            align-items: center;
         }
 
         & .r-nav-side {
             width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-
-
-            ul {
-                display: flex;
-                flex-direction: row;
-
-                li {
-                    display: flex;
-                    align-items: center;
-
-                    a {
-                        color: $primaryBrownColor;
-                        margin: 0 15px;
-                        font-weight: bold;
-
-
-
-                        button {
-                            font-size: 1rem;
-                            // @include border_color (blue)
-                            border-radius: 5px;
-                            border: 1px solid blue;
-                            background-color: white;
-                            padding: 5px 10px;
-                            color: blue;
-                        }
+            li {
+                line-height: 80px;
+                a {
+                    color: $primaryBrownColor;
+                    margin: 0 15px;
+                    font-weight: bold;
+                    button {
+                        font-size: 1rem;
+                        // @include border_color (blue) non riesco a far frunzionare il mixin!
+                        border-radius: 5px;
+                        border: 1px solid blue;
+                        background-color: white;
+                        padding: 5px 10px;
+                        color: blue;
                     }
+                }
 
-                    a:last-child {
-                        margin: 0 0 0 15px;
-                    }
+                a:last-child {
+                    margin: 0 0 0 15px;
                 }
             }
 
 
+
             #dropDown {
-                margin-top: 5px;
+
                 position: relative;
                 display: inline-block;
 

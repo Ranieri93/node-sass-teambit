@@ -481,62 +481,64 @@ body {
   height: 100%;
 }
 
-header {
-  height: 80px;
+.d-flex {
   display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
 }
 
-header nav {
-  height: 100%;
-  display: -webkit-box;
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid #58402c;
-}
-
-header nav .l-nav-side {
-  width: 50%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-}
-
-header nav .r-nav-side {
-  width: 50%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
-}
-
-header nav .r-nav-side ul {
-  display: -webkit-box;
-  display: flex;
+.f-dir-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-direction: row;
 }
 
-header nav .r-nav-side ul li {
-  display: -webkit-box;
-  display: flex;
+.j-cont-cent {
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.j-cont-sp-around {
+  justify-content: space-around;
+}
+
+.j-con-f-end {
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.a-it-cent {
   -webkit-box-align: center;
           align-items: center;
 }
 
-header nav .r-nav-side ul li a {
+header {
+  height: 80px;
+}
+
+header nav {
+  height: 100%;
+  border-bottom: 1px solid #58402c;
+}
+
+header nav .l-nav-side {
+  width: 50%;
+}
+
+header nav .r-nav-side {
+  width: 50%;
+}
+
+header nav .r-nav-side li {
+  line-height: 80px;
+}
+
+header nav .r-nav-side li a {
   color: #58402c;
   margin: 0 15px;
   font-weight: bold;
 }
 
-header nav .r-nav-side ul li a button {
+header nav .r-nav-side li a button {
   font-size: 1rem;
   border-radius: 5px;
   border: 1px solid blue;
@@ -545,12 +547,11 @@ header nav .r-nav-side ul li a button {
   color: blue;
 }
 
-header nav .r-nav-side ul li a:last-child {
+header nav .r-nav-side li a:last-child {
   margin: 0 0 0 15px;
 }
 
 header nav .r-nav-side #dropDown {
-  margin-top: 5px;
   position: relative;
   display: inline-block;
 }
@@ -574,5 +575,22 @@ header nav .r-nav-side #dropDown .dropDown-content li {
 
 header nav .r-nav-side #dropDown:hover .dropDown-content {
   display: block;
+}
+
+#top-jumbotron {
+  margin-top: 3rem;
+  height: 500px;
+}
+
+#top-jumbotron .l-jumbotron {
+  height: 500px;
+  width: 50%;
+  background-color: yellow;
+}
+
+#top-jumbotron .r-jumbotron {
+  height: 500px;
+  width: 50%;
+  background-color: orange;
 }
 

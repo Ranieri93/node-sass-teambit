@@ -10,3 +10,27 @@ body {
     width: 1200px;
     height: 100%;
 }
+
+.d-flex {
+    display: flex;
+}
+
+.f-dir-row {
+    flex-direction: row;
+}
+
+.j-cont-cent {
+    justify-content: center;
+}
+
+.j-cont-sp-around {
+    justify-content: space-around;
+}
+
+.j-con-f-end {
+    justify-content: flex-end;
+}
+
+.a-it-cent {
+    align-items: center;
+}
