@@ -16,14 +16,9 @@ header {
                     color: $primaryBrownColor;
                     margin: 0 15px;
                     font-weight: bold;
+
                     button {
-                        font-size: 1rem;
-                        // @include border_color (blue) non riesco a far frunzionare il mixin!
-                        border-radius: 5px;
-                        border: 1px solid blue;
-                        background-color: white;
-                        padding: 5px 10px;
-                        color: blue;
+                        @include button-Blue(blue,1rem,white,blue)
                     }
                 }
 
@@ -32,10 +27,7 @@ header {
                 }
             }
 
-
-
             #dropDown {
-
                 position: relative;
                 display: inline-block;
 

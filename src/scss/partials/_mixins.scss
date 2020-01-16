@@ -1,4 +1,16 @@
-@mixin border_color ($color) {
-    border-radius: 5px;
+
+@mixin border_color($color) {
     border: 1px solid $color;
+    border-radius: 5px;
+}
+
+
+
+@mixin button-Blue($bordercolor,$font,$backColor,$color) {
+    font-size: $font;
+    border: 1px solid $bordercolor;
+    border-radius: 5px;
+    background-color: $backColor;
+    padding: 5px 10px;
+    color: $color;
 }

@@ -1,0 +1,37 @@
+#first-brownishSection {
+    background-color:#ffe7d2;
+    margin-top: $sectionSpacer;
+
+    h2 {
+        margin: $sectionSpacer 0;
+        font-weight: bold;
+        font-size: $mediumFontSize;
+    }
+
+    .img-brownishSection {
+        padding: $sectionSpacer 0;
+        .img-wrapper {
+            width: 200px;
+            img {
+                height: 130px;
+            }
+        }
+        .p-wrapper {
+            margin: 30px 0;
+        }
+    }
+
+    .img-wrapper-lonely {
+        width: 280px;
+        margin-bottom: 3rem;
+    }
+    // questa cosa è pessima, me ne rendo conto, abbiate pazienza...
+    #line {
+        width: 1200px;
+        border-bottom: 1px solid $primaryBrownColor;
+    }
+
+    #ending-line {
+        padding-bottom: 30px;
+    }
+}

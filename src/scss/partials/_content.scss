@@ -8,11 +8,34 @@
     .l-jumbotron {
         height: 500px;
         width: 50%;
-        background-color: yellow;
+
+        h1 {
+            font-size: $bigFontSIze;
+            margin: $sectionSpacer 0;
+        }
+
+        h3 {
+            font-size: $mediumFontSize;
+            margin: $sectionSpacer 0;
+        }
+
+        a:last-child {
+            font-size: 0.8rem;
+        }
     }
+
     .r-jumbotron {
-        height: 500px;
         width: 50%;
-        background-color: orange;
     }
+
+    #button-section-jumbo {
+        padding: 0 0 50px;
+        span {
+            margin: 0 15px 0 10px;
+        }
+        button {
+            @include button-Blue(blue,1rem,blue,white)
+        }
+    }
+
 }
