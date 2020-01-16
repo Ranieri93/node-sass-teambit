@@ -15,6 +15,11 @@ body {
     height: 100%;
 }
 
+.lg-container {
+    width: 1600px;
+    height: 100%;
+}
+
 .sm-container {
     width: 860px;
     height: 100%;
@@ -46,6 +51,10 @@ body {
 
 .j-cont-sp-between {
     justify-content: space-between;
+}
+
+.j-cont-f-start {
+    justify-content: flex-start;
 }
 
 .j-con-f-end {

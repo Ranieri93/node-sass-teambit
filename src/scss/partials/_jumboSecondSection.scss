@@ -1,0 +1,21 @@
+#jumboSecondSection {
+    .img-wapper-s-jumbo {
+        max-width: 768px;
+    }
+
+    .jumboSecond-right {
+        h2 {
+            margin: $sectionSpacer 0;
+            font-weight: bold;
+            font-size: $mediumFontSize;
+        }
+        .wrapper-inner {
+            width: 420px;
+
+        }
+
+        .wrapper-img-jumbo {
+            max-width: 230px;
+        }
+    }
+}

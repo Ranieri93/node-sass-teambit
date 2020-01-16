@@ -485,6 +485,11 @@ body {
   height: 100%;
 }
 
+.lg-container {
+  width: 1600px;
+  height: 100%;
+}
+
 .sm-container {
   width: 860px;
   height: 100%;
@@ -523,6 +528,11 @@ body {
 .j-cont-sp-between {
   -webkit-box-pack: justify;
           justify-content: space-between;
+}
+
+.j-cont-f-start {
+  -webkit-box-pack: start;
+          justify-content: flex-start;
 }
 
 .j-con-f-end {
@@ -690,5 +700,23 @@ header nav .r-nav-side #dropDown:hover .dropDown-content {
 
 #first-brownishSection #ending-line {
   padding-bottom: 30px;
+}
+
+#jumboSecondSection .img-wapper-s-jumbo {
+  max-width: 768px;
+}
+
+#jumboSecondSection .jumboSecond-right h2 {
+  margin: 3rem 0;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+#jumboSecondSection .jumboSecond-right .wrapper-inner {
+  width: 420px;
+}
+
+#jumboSecondSection .jumboSecond-right .wrapper-img-jumbo {
+  max-width: 230px;
 }
 
